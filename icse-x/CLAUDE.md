@@ -4,11 +4,12 @@ This folder is a self-contained job. **Ignore the repository-root CLAUDE.md and 
 
 ## The job
 
-Deepen **Section 1 ("## 1. Complete Lesson")** of all 68 ICSE Class X chapter files in `chapters/`:
+Deepen **Section 1 ("## 1. Complete Lesson")** of the 48 ICSE Class X chapter files in these three folders of `chapters/`:
+
+> **Scope (user, 30 Oct 2026): History and Civics, Geography and Computer Applications ONLY.** Do NOT touch `chapters/English` — its literature was done on the user's PC and the writing skills are out of scope.
 
 | Folder | Files | ICSE paper |
 |---|---|---|
-| `chapters/English` | 20 | English Language (Paper 1, 80 marks) and Literature in English (Paper 2, 80 marks) |
 | `chapters/History and Civics` | 19 | H.C.G. Paper 1 (History & Civics, 80 marks) |
 | `chapters/Geography` | 16 | H.C.G. Paper 2 (Geography, 80 marks; includes topographical maps and map of India) |
 | `chapters/Computer Applications` | 13 | Computer Applications (Java/BlueJ, 100 marks: 70 theory + 30 internal) |
@@ -16,7 +17,7 @@ Deepen **Section 1 ("## 1. Complete Lesson")** of all 68 ICSE Class X chapter fi
 Core9X (www.core9x.com) is a Class IX–XII study site; ICSE Class X is live with students. The same deep-lesson work is already finished and reviewed for MBOSE, ASSEB and CBSE Class X. **Read `tools/DEPTH_STANDARD.md` first and follow it exactly**, and study one finished example in `examples/` before writing:
 - `examples/MBOSE X Science - Ch01 …` — the pilot; the depth, tone and block layout to match;
 - `examples/MBOSE X Social Science - Ch05 Resources …` — model answers with "Why this scores" (use for History & Civics, Geography);
-- `examples/MBOSE X English - Ch01 A Letter to God …` — literature model answers (use for English);
+
 - `examples/MBOSE X Computer Science - Ch12 Java Programming …` — code examples with output (use for Computer Applications).
 
 ### What to add to every `###` part of Section 1
@@ -47,4 +48,4 @@ Do **not** build .docx or PDF files (the overseer rebuilds Word files locally). 
 Work on a branch named `icse-x-deep`. Commit each subject (or every few chapters) with a clear message, and **push often** so progress is visible even if the run stops. Do not push to `main`.
 
 ## Finish
-When all 68 files pass, write `icse-x/REPORT.md`: per subject, a table of files with Section 1 words before → after; every syllabus deletion with its evidence; facts a teacher should check; any Java program that could not be run. Commit and push it.
+When all 48 files pass, write `icse-x/REPORT.md`: per subject, a table of files with Section 1 words before → after; every syllabus deletion with its evidence; facts a teacher should check; any Java program that could not be run. Commit and push it.
